@@ -73,7 +73,7 @@ At startup, you may enable debug mode. When enabled:
 
 * `main.cpp` - Program entry point and user input setup
 * `game.*` - Core game loop, board management, movement, and actions
-* `player.*` —-Player state and inventory management
+* `player.*` - Player state and inventory management
 * `room.*` - Room container handling events and memory management
 * `event.*` - Abstract base class for all events
 * `wumpus`, `gold`, `arrow`, `bat_swarm`, `bottomless_pit`, `escape_rope` - Individual event implementations
