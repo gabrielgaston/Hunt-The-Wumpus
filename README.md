@@ -71,12 +71,12 @@ At startup, you may enable debug mode. When enabled:
 
 ## Program Structure
 
-* `main.cpp` — Program entry point and user input setup
-* `game.*` — Core game loop, board management, movement, and actions
-* `player.*` — Player state and inventory management
-* `room.*` — Room container handling events and memory management
-* `event.*` — Abstract base class for all events
-* `wumpus`, `gold`, `arrow`, `bat_swarm`, `bottomless_pit`, `escape_rope` — Individual event implementations
+* `main.cpp` - Program entry point and user input setup
+* `game.*` - Core game loop, board management, movement, and actions
+* `player.*` —-Player state and inventory management
+* `room.*` - Room container handling events and memory management
+* `event.*` - Abstract base class for all events
+* `wumpus`, `gold`, `arrow`, `bat_swarm`, `bottomless_pit`, `escape_rope` - Individual event implementations
 
 Polymorphism and deep copying (`clone()`) are used to manage events safely within the grid.
 
@@ -100,7 +100,7 @@ g++ -std=c++11 *.cpp -o wumpus
 * Grid size is configurable (4–30 rows/columns)
 * Randomized board generation each run
 * Confusion effects reset each turn
-* Arrow supply is limited—use them wisely
+* Arrow supply is limited, make sure to use them wisely
 
 ---
 
